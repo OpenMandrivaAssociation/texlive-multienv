@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-multienv
 Version:	20120809
-Release:	3
+Release:	4
 Summary:	TeXLive multienv package
 Group:		Publishing
 URL:		http://tug.org/texlive
