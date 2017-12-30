@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-multienv
-Version:	1.0
+Version:	20170414
 Release:	1
 Summary:	TeXLive multienv package
 Group:		Publishing
