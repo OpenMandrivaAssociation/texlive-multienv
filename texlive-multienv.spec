@@ -1,11 +1,5 @@
-# revision 26544
-# category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-multienv
-Version:	20170414
+Version:	1.0
 Release:	1
 Summary:	TeXLive multienv package
 Group:		Publishing
@@ -32,12 +26,10 @@ TeXLive multienv package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/multienv/multienv.sty
-%doc %{_texmfdistdir}/doc/latex/multienv/README
-%doc %{_texmfdistdir}/doc/latex/multienv/multienv.pdf
+%{_texmfdistdir}/tex/latex/multienv
+%doc %{_texmfdistdir}/doc/latex/multienv
 #- source
-%doc %{_texmfdistdir}/source/latex/multienv/multienv.dtx
-%doc %{_texmfdistdir}/source/latex/multienv/multienv.ins
+%doc %{_texmfdistdir}/source/latex/multienv
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,11 +40,3 @@ TeXLive multienv package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120809-1
-+ Revision: 813672
-- Import texlive-multienv
-- Import texlive-multienv
-
