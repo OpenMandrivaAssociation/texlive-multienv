@@ -1,6 +1,6 @@
 Name:		texlive-multienv
 Version:	1.0
-Release:	1
+Release:	2
 Summary:	TeXLive multienv package
 Group:		Publishing
 URL:		http://tug.org/texlive
